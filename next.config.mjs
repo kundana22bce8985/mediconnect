@@ -2,10 +2,12 @@
 const nextConfig = {
   output: "export",
   basePath: "/mediconnect",
+  assetPrefix: "/mediconnect",
+  trailingSlash: true,
+
   images: {
     unoptimized: true,
   },
-  trailingSlash: true,
 };
 
 export default nextConfig;
